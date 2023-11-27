@@ -1,0 +1,11 @@
+<div class="col-6" style="background-color: #e9edc9; height: 350px">
+    {% if upload %}
+    <iframe class="rounded float-right img-fluid" src="/static/predict/{{videoname}}"></iframe>
+    {% endif %}
+</div>
+
+
+{% if upload %}
+<div class="container">
+    <iframe class="rounded float-left img-fluid" src="/static/upload/{{videoname}}"></iframe>
+{% endif %}
